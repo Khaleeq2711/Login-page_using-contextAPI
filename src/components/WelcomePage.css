@@ -1,0 +1,26 @@
+.welcome-page{
+    position: fixed;
+}
+
+
+  
+.welcome-page button {
+    margin-top: 5%;
+    padding: 0% 3%;
+    height: 2.5rem;
+    width: 5rem;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #5f697e;
+  }
+  
+  .welcome-page button:focus {
+    outline: none;
+  }
+  
+  .welcome-page button:hover,
+  .welcome-page button:active {
+    color: #bbcfff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.26);
+  }
+  

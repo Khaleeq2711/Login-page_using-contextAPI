@@ -1,0 +1,95 @@
+.main-form {
+  position: fixed;
+  width: 30%;
+  margin: 3%;
+  padding: 2% 15%;
+  border: 2px solid black;
+  border-radius: 20px;
+  text-align: center;
+  height: auto;
+  box-shadow: 0 10px 50px rgba(255, 0, 0, 0.26);
+}
+
+.add-main {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: left;
+}
+
+
+
+
+
+.add-email {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-email label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.add-email input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid;
+  width: auto;
+  max-width: 100%;
+}
+.add-email.invalid input {
+  border-color: red;
+}
+.add-email.valid input {
+  background-color: rgb(154, 255, 206);
+}
+.add-email.invalid p {
+  text-align: left;
+  color: red;
+}
+.add-email.valid p {
+  text-align: left;
+}
+
+.add-pass {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-pass label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+.add-pass input {
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  width: auto;
+  max-width: 100%;
+}
+.add-pass.invalid input {
+  border-color: red;
+}
+.add-pass.valid input {
+  background-color: rgb(154, 255, 206);
+}
+
+.add-button button {
+    margin-top: 5%;
+    padding: 0% 3%;
+    height: 2.5rem;
+    width: 30%;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: #5f697e;
+  }
+  .add-button button:hover,
+  .add-button button:active {
+    background-color: #545d6f;
+    color: #bbcfff;
+  }
+  .add-button button:disabled{
+    background-color: wheat;
+  }

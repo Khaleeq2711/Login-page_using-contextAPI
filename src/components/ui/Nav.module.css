@@ -1,0 +1,42 @@
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.nav li {
+  margin: 0;
+  margin-left: 2rem;
+}
+
+.nav a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav a:hover,
+.nav a:active {
+  color: #bbcfff;
+}
+
+.nav button {
+  margin-top: 5%;
+  padding: 0% 3%;
+  height: 2.5rem;
+  width: 5rem;
+  border: 1px solid white;
+  border-radius: 10px;
+  background-color: #5f697e;
+}
+
+.nav button:focus {
+  outline: none;
+}
+
+.nav button:hover,
+.nav button:active {
+  color: #bbcfff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.26);
+}
